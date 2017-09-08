@@ -196,7 +196,7 @@ Eg.:
 # "Services"
 
 ## ClipboardHelper
-The static *ClipboradHelper* provides methods to read separated (CSV, Text) text from the clipboard an convert them into a `string` Array.
+The static *ClipboradHelper* provides methods to read separated (CSV, Text) text from the clipboard and convert them into a `string` Array.
 
 Following methods are provided:
 
