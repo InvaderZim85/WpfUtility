@@ -196,7 +196,28 @@ Eg.:
 # "Services"
 
 ## ClipboardHelper
-...
+The static *ClipboradHelper* provides methods to read separated (CSV, Text) text from the clipboard an convert them into a `string` Array.
+
+Following methods are provided:
+
+### 1. `static List<string[]> ParseCliboardData()`
+Reads the data of the clipboard and converts them into a list of string arrays.
+
+**Returntype**: `List<string[]>`
+
+### 2. `static string[] ParseCsvFormat(string value)`
+Parses a given, comma separated, string into a string array.
+
+**Parameter**: `string` value: The value with the comma separated string
+
+**Returntype**: `string[]` 
+
+### 3. `static string[] ParseTextFormat(string value)`
+Parses a given, tab separated, string into a string array.
+
+**Parameter**: `string` value: The value with the tab separated string.
+
+**Returntype**: `string[]`
 
 ---
 ## CommandManagerHelper
